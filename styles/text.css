@@ -1,0 +1,29 @@
+h1 {
+     font-size: 40px;
+     margin-bottom: 40px;
+ }
+ 
+ .text-box {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+ }
+ 
+ textarea {
+     width: 100%;
+     max-width: 400px;
+     height: 150px;
+     padding: 10px;
+     font-size: 16px;
+     margin-bottom: 10px;   
+
+ }
+
+ .character-count{
+    position: absolute; 
+    bottom: 150px;
+    left: 5px;
+    color: grey;
+    font-size: smaller;
+ }

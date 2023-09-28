@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-to-Speech</title>
+  <link rel="stylesheet" href="styles/generalStyles.css">
+  <link rel="stylesheet" href="styles/buttons.css">
+  <link rel="stylesheet" href="styles/background.css">
+  <link rel="stylesheet" href="styles/text.css">
+  <link rel = "icon"  href = "Visuals/text-to-speech.png"> 
+</head>
+<body>
+    <!--Div that stores the background of the text box-->
+  <button class = "name">Vicky Sekhon</button>
+  <div id = "background" class="background">  
+    <!--Create heading-->
+    <h1>Text to Speech</h1>
+    <!--Div that holds content inside the text box-->
+    <div class="text-box">
+      <!--Button that changes the voice spoken-->
+      <button id = "voice-selector" class = "voice-selector">Voice</button>
+      <!--Where the text is input (note: it uses the 'textarea' tag instead of the 'input' tag to capture longer input)-->
+      <textarea id="input-text" placeholder="Enter text to be spoken"></textarea>
+      <!--Paragraph that displays the current amount of character inputted-->
+      <p id="character-count" class = "character-count">0 / 500</p>
+      <!--Speak button that will speak the text inside the text area on click-->
+      <button id="speak-button">Speak</button>
+      <!--Label for the volume control input-->
+      <label for="volume-control" class = "control">Volume:</label>
+      <!--Create volume slider using input with type set to 'range' then specify min max and step values as well as the volume slider value on page refresh-->
+      <input type="range" id="volume-control" min="0" max="1" step="0.02" value="1">
+      <label for="reading-speed" class = "control">Speed:</label>
+      <input type="range" id="reading-speed" min="0" max="1" step="0.04" value="1">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
