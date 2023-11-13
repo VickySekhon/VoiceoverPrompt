@@ -16,4 +16,4 @@ A full-stack creation of a text-to-speech mechanism, allows users to input text 
 5. script.js contains functionality for the voice-over.
 
 ## Project
-https://vickysekhon.github.io/TextToSpeech/
+https://vickysekhon.github.io/VoiceoverPrompt/
