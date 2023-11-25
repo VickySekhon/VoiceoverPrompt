@@ -1,4 +1,4 @@
-# TextToSpeech
+# Voiceover Prompt
 
 ## Description 
 A full-stack creation of a text-to-speech mechanism, allows users to input text and have it played back at a desired tempo and volume. The project uses the front-end stack (HTML, CSS, JS). The project can be expanded on in the future with voice-changing feature that allows users to select a voice suitable for their needs. 
@@ -16,4 +16,4 @@ A full-stack creation of a text-to-speech mechanism, allows users to input text 
 5. script.js contains functionality for the voice-over.
 
 ## Project
-https://vickysekhon.github.io/VoiceoverPrompt/
+
