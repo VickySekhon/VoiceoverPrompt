@@ -16,16 +16,7 @@ button {
  }
 
  button:active{
-    background-color: rgb(186, 176, 176);
-    color: #0056b3;
- }
-
- .voice-selector{
-    position: absolute;
-    top: -245px;
-    right: -55px;   
-    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
-    
+    background-color: #0b4380;
  }
 
  .name{
@@ -36,3 +27,14 @@ button {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     display: flexbox;
 }   
+.speak-button{
+   margin: 0;
+   margin-bottom: 20px;
+   
+}
+.voice-selector{
+   margin: 0;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   width: 90px;
+}

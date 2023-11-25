@@ -1,6 +1,7 @@
 h1 {
      font-size: 40px;
      margin-bottom: 40px;
+     font-family: Arial, Helvetica, sans-serif;
  }
  
  .text-box {
@@ -9,11 +10,12 @@ h1 {
      align-items: center;
      position: relative;
  }
+
  
  textarea {
      width: 100%;
      max-width: 400px;
-     height: 150px;
+     height: 200px;
      padding: 10px;
      font-size: 16px;
      margin-bottom: 10px;   
@@ -21,9 +23,8 @@ h1 {
  }
 
  .character-count{
-    position: absolute; 
-    bottom: 150px;
-    left: 5px;
+    padding: 0;
+    margin: 0;
     color: grey;
     font-size: smaller;
  }

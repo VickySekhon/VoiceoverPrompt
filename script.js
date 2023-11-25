@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function ()  {
      const readingSpeed = document.getElementById("reading-speed");
  
      // Define the character limit
-     const characterLimit = 500;
+     const characterLimit = 50000;
  
      // Initialize the voice manager and select a voice
      const voiceManager = speechSynthesis.getVoices();

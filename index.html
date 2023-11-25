@@ -12,20 +12,19 @@
 </head>
 <body>
     <!--Div that stores the background of the text box-->
-  <button class = "name">Vicky Sekhon</button>
   <div id = "background" class="background">  
     <!--Create heading-->
     <h1>Text to Speech</h1>
     <!--Div that holds content inside the text box-->
     <div class="text-box">
+      <!--Where the text is input (note: it uses the 'textarea' tag instead of the 'input' tag to capture longer input)-->
+      <textarea id="input-text" placeholder="Enter text to be spoken..."></textarea>
+      <!--Paragraph that displays the current amount of character inputted-->
+      <p id="character-count" class = "character-count"></p>
       <!--Button that changes the voice spoken-->
       <button id = "voice-selector" class = "voice-selector">Voice</button>
-      <!--Where the text is input (note: it uses the 'textarea' tag instead of the 'input' tag to capture longer input)-->
-      <textarea id="input-text" placeholder="Enter text to be spoken"></textarea>
-      <!--Paragraph that displays the current amount of character inputted-->
-      <p id="character-count" class = "character-count">0 / 500</p>
       <!--Speak button that will speak the text inside the text area on click-->
-      <button id="speak-button">Speak</button>
+      <button id="speak-button" class = "speak-button">Speak</button>
       <!--Label for the volume control input-->
       <label for="volume-control" class = "control">Volume:</label>
       <!--Create volume slider using input with type set to 'range' then specify min max and step values as well as the volume slider value on page refresh-->
