@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function ()  {
      // Define the character limit
      const characterLimit = 50000;
 
-     
      // Initialize the voice manager and select a voice
      const voiceManager = speechSynthesis.getVoices();
      let selectedVoiceIndex = 1; // Default to the first available voice index
