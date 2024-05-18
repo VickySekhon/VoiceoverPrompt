@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", function ()  {
          if (textToSpeak === "") {
              alert("No text was found to read."); //add alert 
          }
-         
+
+          
          // stores the active words to be spoken in a variable called utterance 
          const utterance = new SpeechSynthesisUtterance(textToSpeak);
          //choose the voice for the voice prompt 
